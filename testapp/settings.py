@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'testapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 try:
-    from loca_settings import *
+    from local_settings import *
 except Exception as e:
     DATABASES = {
         'default': {
